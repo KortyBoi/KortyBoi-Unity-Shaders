@@ -7,7 +7,7 @@ This shader has a custom UI format to better organize the list of options you ca
 
 # Compatibility
 This shader was test to work in Unity 2017.4.x and 2019.x
-This shader was tested on different platforms, this works on PC builds, and does not work on Android (mobile) builds.
+This shader was tested on different platforms, this works on PC builds, and does not work on Android (mobile) builds _(yet)_.
 
 # Location
 In the Unity EditorUI
