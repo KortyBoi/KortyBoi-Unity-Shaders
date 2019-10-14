@@ -6,8 +6,8 @@ This shader has a custom UI format to better organize the list of options you ca
 ![Custom UI Preview](https://cdn.discordapp.com/attachments/279459962843955201/607406632233861132/unknown.png)
 
 # Compatibility
-This shader was test to work in Unity 2017.4.x and 2019.x
-This shader was tested on different platforms, this works on PC builds, and does not work on Android (mobile) builds _(yet)_.
+These shaders were tested to work in Unity 2017.4.x and 2018.4.x and 2019.x
+These shaders were tested on different platforms, this works on PC builds and Android (mobile) builds; currently untested with Linux and Mac Mono builds.
 
 # Location
 In the Unity EditorUI
