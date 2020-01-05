@@ -24,10 +24,6 @@ Shader "KortyBoi/Toon/Fake Lighting" {
         [MaterialToggle] _use_rimlight ("Use Rimlight", Float ) = 0
         _rimlight_power ("Rimlight Strength", Range(0, 5)) = 3
         _rimlight_color ("Rimlight Color", Color) = (0.5,0.5,0.5,1)
-		
-		//[Space(20)]
-		//[Header(Creator)]
-		//KortyBoi("KortyBoi#0001", Range(0.9999, 0001)) = 0001
     }
 	
     SubShader {
