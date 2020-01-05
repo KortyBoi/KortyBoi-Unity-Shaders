@@ -1,6 +1,4 @@
-// Shader created with Shader Forge v1.38 - by KortyBoi#0001
-
-Shader "KortyBoi/Toon/VFX"
+Shader "KortyBoi/Toon/Visual Toon FX"
 {
     Properties
     {
