@@ -7,7 +7,8 @@ This shader has a custom UI format to better organize the list of options you ca
 
 # Compatibility
 These shaders were tested to work in Unity 2017.4.x and 2018.4.x and 2019.x
-These shaders were tested on different platforms, this works on PC builds and Android (mobile) builds; currently untested with Linux and Mac Mono builds.
+These shaders were tested on different platforms, this works on PC builds and Android (mobile) builds and Linux and Mac (Mono) builds.
+The only Shader that may have issues is: **Visual Effects** - on _Android_ (untested though)
 
 # Location
 In the Unity EditorUI
