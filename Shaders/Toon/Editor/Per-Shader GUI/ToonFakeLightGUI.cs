@@ -130,7 +130,7 @@ public class ToonFakeLightEditor : ShaderGUI
         style.richText = true;
         style.alignment = TextAnchor.MiddleCenter;
 
-        EditorGUILayout.LabelField("<size=20><color=#00ffaa>Fake Light Toon Shader <size=15>v1.0</size></color></size>", style, GUILayout.MinHeight(24));
+        EditorGUILayout.LabelField("<size=20><color=#00ffaa>Fake Light Toon Shader <size=15>v1.0.1</size></color></size>", style, GUILayout.MinHeight(24));
 		EditorGUILayout.Space();
     }
 	
@@ -140,17 +140,17 @@ public class ToonFakeLightEditor : ShaderGUI
         style.richText = true;
         style.alignment = TextAnchor.MiddleCenter;
 
-        EditorGUILayout.LabelField("<size=15><color=#ffffff>Made by</color> <color=#00ffaa>Kortana</color></size><size=10><color=red>#4110</color></size>", style, GUILayout.MinHeight(20));
+        EditorGUILayout.LabelField("<size=15><color=#ffffff>Made by</color> <color=#00ffaa>KortyBoi</color></size><size=10><color=red>#0001</color></size>", style, GUILayout.MinHeight(20));
 		
 		EditorGUILayout.Space();
 		GUILayout.BeginHorizontal();
             if (GUILayout.Button("My Website"))
             {
-                Application.OpenURL("https://kortana.xyz/");
+                Application.OpenURL("https://kortyboi.com/");
             }
             if (GUILayout.Button("Donate"))
             {
-                Application.OpenURL("https://paypal.me/octob3rvirus/5");
+                Application.OpenURL("https://kortyboi.com/donate");
             }
             GUILayout.EndHorizontal();
     }
@@ -162,9 +162,13 @@ public class ToonFakeLightEditor : ShaderGUI
         style.alignment = TextAnchor.MiddleLeft;
 
         EditorGUILayout.LabelField("<size=15><color=#ffffff>Change Log:</color></size>", style, GUILayout.MinHeight(22));
+		
 		EditorGUILayout.Space();
-		EditorGUILayout.LabelField("<size=13.5><color=red><b>v1.0</b></color></size>", style, GUILayout.MinHeight(10));
-		EditorGUILayout.LabelField(" <size=10> <color=red> - Initial Release</color></size>", style, GUILayout.MinHeight(10));
+		EditorGUILayout.LabelField("<size=13.5><color=red><b>v1.0.1</b></color></size>", style, GUILayout.MinHeight(15));
+		EditorGUILayout.LabelField(" <size=10> <color=red> - Updated Discord in Credits</color></size>", style, GUILayout.MinHeight(15));
+		EditorGUILayout.Space();
+		EditorGUILayout.LabelField("<size=13.5><color=red><b>v1.0</b></color></size>", style, GUILayout.MinHeight(15));
+		EditorGUILayout.LabelField(" <size=10> <color=red> - Initial Release</color></size>", style, GUILayout.MinHeight(15));
 		/*
 		EditorGUILayout.LabelField("<size=13.5><color=red><b>v </b></color></size>", style, GUILayout.MinHeight(10));
 		EditorGUILayout.LabelField(" <size=10> <color=red> - </color></size>", style, GUILayout.MinHeight(10));
