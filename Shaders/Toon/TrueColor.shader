@@ -13,6 +13,7 @@ SubShader {
     Color [_Color]
     ZTest Always 
     ZWrite On
+    Cull Off
     Pass {}
 	}
 }
